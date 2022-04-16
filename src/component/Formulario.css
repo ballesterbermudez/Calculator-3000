@@ -1,0 +1,156 @@
+.Origin {
+    width: 1280px;
+    margin: auto;
+}
+
+.Wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.arriba {
+    display: flex;
+    flex-direction: row;
+}
+
+.Boton {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.Body {
+    text-align: center;
+}
+
+.container {
+    width: 1280px;
+    margin: auto;
+}
+
+.wrapper-calculadora {
+    display: flex;
+    flex-direction: column;
+    width: 670px;
+    margin:auto;
+    margin-top: 60px;
+}
+
+.row {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.boton-calculadora {
+    height: 100%;
+    width: 19%;
+    background: linear-gradient(120deg, #bfe2ca, var(--primarycolor));
+    box-shadow: 2px 5px 5px black;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-largo {
+    width: 39%;
+}
+
+.boton-calculadora:hover {
+    background: #a4dbb5;
+}
+
+.input {
+    height: 100%;
+    width: 100%;
+    box-shadow: 2px 5px 5px black;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(160deg, #e9f1fb, rgb(180, 180, 180));
+}
+
+.input-del-input {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 50px;
+    font-weight: bolder;
+    outline: unset;
+}
+
+.input-del-input-arriba {
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+.letra-calculadora {
+    font-size: 52px;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.letra-especial {
+    font-size: 35px;
+}
+
+.Recuadro {
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: 0ch;
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+}
+
+input:focus {
+    border: 0px solid white;
+    box-shadow: 0 0 0px white;
+    outline-offset: 0px;
+    outline: none;
+}
+
+input::placeholder {
+    font-size: 26px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: white;
+}
