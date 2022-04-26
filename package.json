@@ -2,7 +2,7 @@
   "name": "mi-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ballesterbermudez.github.io/calculator-3000",
+  "homepage": "https://ballesterbermudez.github.io/Calculator-3000/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",
